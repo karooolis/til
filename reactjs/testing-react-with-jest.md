@@ -34,7 +34,7 @@ And voila, now all that's left is to run `npm test`. Now, simple JavaScript func
 
 ## Testing React components
 
-To start testing React componnets, we need to declare one first, d'oh. I have created one at `./mylement.js`:
+To start testing React components, we need to declare one first, d'oh. I have created one at `./mylement.js`. All it does is changes its text upon a click from "I am not active :(" to "I am active!". No need to overcomplicate things.
 
 ```javascript
 import React from 'react';
