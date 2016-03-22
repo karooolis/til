@@ -31,7 +31,7 @@ warrant a full blog post. Inspired by and forked from [Josh Branchaud](http://jo
 
 ### ReactJS
 - [Reusable React components with NPM](reactjs/reusable-react-components-with-npm.md)
-- [Testing React with Jest](reactjs/testing-react-with-jest.md)
+- [Testing React components with Jest](reactjs/testing-react-with-jest.md)
 
 ### CSS
 - [Understanding z-index](css/understanding-z-index.md)

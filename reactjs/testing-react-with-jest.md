@@ -1,4 +1,4 @@
-# Testing React with Jest
+# Testing React components with Jest
 
 It's been a long time since I wanted to explore deeper of how to perform unit tests in JavaScript, and especially React. Today is the day!
 
@@ -17,7 +17,7 @@ function multiply(a, b) {
 module.exports = multiply;
 ```
 
-Then, to test that function, we create a unit test inside `__tests__/multiply-test.js` such:
+Then, to test that function, we create a unit test inside `__tests__/multiply-test.js` as such:
 
 ```javascript
 jest.unmock('../multiply'); // unmock to use the actual implementation of multiply
@@ -30,11 +30,11 @@ describe('multiply', () => {
 });
 ```
 
-And voila, now all that's left is to run `npm test`. Now, that by itself is going to be useless in most cases.
+And voila, now all that's left is to run `npm test`. Now, simple JavaScript function unit tests by itself is going to be barely useful in most cases. Let's see how to test some React components which is where fun and the power lays!
 
-## Testing React
+## Testing React components
 
-Now let's look at a more complicated but much more fun and usefule xample of testing React components. We start declaring our component `./mylement.js` as such:
+To start testing React componnets, we need to declare one first, d'oh. I have created one at `./mylement.js`:
 
 ```javascript
 import React from 'react';
