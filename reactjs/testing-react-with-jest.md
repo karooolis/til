@@ -34,7 +34,7 @@ And voila, now all that's left is to run `npm test`. Now, simple JavaScript func
 
 ## Testing React components
 
-To start testing React components, we need to declare one first, d'oh. I have created one at `./mylement.js`. All it does is changes its text upon a click from "I am not active :(" to "I am active!". No need to overcomplicate things.
+To start testing React components, we need to declare one first, d'oh. I have created one at `./mylement.js`. All it does is changes its text upon a click from *"I am not active :("* to *"I am active!"*. No need to overcomplicate things.
 
 ```javascript
 import React from 'react';
@@ -60,7 +60,7 @@ export default class MyElement extends React.Component {
 }
 ```
 
-To test that, we need a new unit test located at `__tests__/MyElement-test.js`:
+To test the newly created React component, we need a new unit test that will render that component on the screen and simulate the events we are interested in. I have created such test at `__tests__/MyElement-test.js`:
 
 ```javascript
 /* eslint-disable no-unused-vars */
@@ -96,8 +96,14 @@ describe('MyElement', () => {
 });
 ```
 
-Note how we import React testing utilities here. They allow to simulate React components rendering on screen which you can then manipulate as you wish. The manipulations part is not covered in Jest's documentation and instead can be found at `react-addons-test-utils` [documentation](https://facebook.github.io/react/docs/test-utils.html).
+There is quite a bit of boilerplte going on here. For example note how we have to import React testing utilities. Or how much codes it takes to just simulate  React component on the screen.
 
-Once all the boilerplate code is in place i.e. all dependencies are imported, testing React components becomes fairly straightforward. Unfortunately, the unit tests take too slow. Even these few simple tests would take my machine up to 10 seconds. The issue is thoroughly discussed [on Github](https://github.com/facebook/jest/issues/116) and at the moment it does not look like it become speedy any time soon which is a shame.
+Anyhow, once all the boilerplate code is in place i.e. all dependencies are imported, testing React components becomes fairly straightforward. For example, to simulate a click event on the element node, all we have to do is write this `TestUtils.Simulate.click(elementNode);` and then test the expected result.
 
-Thus, in summary, even though I love the syntax and how easy it is to set up, I doubt Jest will be my primary choice for unit tests. So keep on looking!
+Note that React components simulation is done by [react-addons-test-utils](https://facebook.github.io/react/docs/test-utils.html) which can be used in any testing library. Thus, you could perform React components testing in Mocha just as well as Jest.
+
+## Summary
+
+In summary, while I love the simplicity of Jest, the unit tests take too slow. Even these few simple tests would take my machine up to 10 seconds. The issue is thoroughly discussed [on Github](https://github.com/facebook/jest/issues/116) and at the moment it does not look like it become speedy any time soon which is a shame.
+
+Thus, even though Jest looks great on paper, and it is for the most paper, I doubt Jest will be my primary choice for unit tests simply due to speed concerns. However, if if becomes speedier in the near future, I will definitely jump into Jest's bandwagon for sure :) But for now keep on looking!
