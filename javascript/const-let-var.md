@@ -135,4 +135,3 @@ In summary, from now on I will only use `let` for variables that will have their
 - [const](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/const)
 - [Const in javascript? When to use it and is it necessary](http://stackoverflow.com/questions/21237105/const-in-javascript-when-to-use-it-and-is-it-necessary)
 - [JavaScript ES6+: var, let, or const?](https://medium.com/javascript-scene/javascript-es6-var-let-or-const-ba58b8dcde75#.dq90wp1qi)
-- []()
