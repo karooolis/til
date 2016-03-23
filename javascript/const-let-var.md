@@ -101,7 +101,7 @@ In contrast, in `letExample2()`, we get a reference error once again. This is be
 
 ## `const`
 
-`const` is a cool one. It's similar to `final` variable declaration in Java where it makes the variable impossible to reassign with a different value once it has been assigned. This is where the name for `const` derives from, meaning constant. Also, it's worth remembering that `const` variables are block scoped, just like `let`.
+`const` is a cool one. It's similar to `final` variable declaration in Java where it makes the variable impossible to reassign with a different value once the variable has been already assigned with a value. This is where the name for `const` derives from, meaning constant. Also, it's worth remembering that `const` variables are block scoped, just like `let`.
 
 Let's look for an example to get a better idea of how `const` works.
 
