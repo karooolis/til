@@ -127,7 +127,7 @@ There is no real reason to use `var` anymore for declaring variables. `let` work
 
 As for `const`, it should be used to declare variables that will never change throughout the entirety of the program, such as access keys, names, configurations and things like that. From a technical standpoint, apparently it also allows JavaScript engines to compile the code in such way that it's more performant.
 
-In summary, from now on I will only use `let` for variables that will have their values reassigned, and `const` for values for which I do not expect or want the value to change during the entirety of an application. As for `var, I am not sure if there is any real reason to use it anymore and the Internet does not reveal any reasons either.
+In summary, from now on I will only use `let` for variables that will have their values reassigned, and `const` for values for which I do not expect or want the value to change during the entirety of an application. As for `var`, I am not sure if there is any real reason to use it anymore and the Internet does not reveal any reasons either.
 
 ## Resources
 
