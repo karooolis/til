@@ -1,12 +1,12 @@
 # const vs. let vs. var
 
-Today I learnt more about `const` and `let` which were introduced in ECMAScript 6 as an addition to varialbles declaration keyword `var`. Let's look at each one of these separately to get an understanding of how they might be used.
+Today I learnt more `const` and `let` that were introduced in ECMAScript 6 as an addition to varialbles declaration keyword `var`. Let's look at each one of these separately to get an understanding of how they might be used.
 
 ## `var`
 
-The good ol' `var`, still with us, still going strong. It allows to declare variables that are scoped to the nearest function block unless it's declared outside a function block. Then the variable is global to the entire application.
+The good ol' `var`, still with us, still going strong. It allows to declare variables that are scoped to the nearest function block, unless it's declared outside a function block. Then the variable is global to the entire application.
 
-Note that variables declared with `var` become visible in their enclosing function block and can be accessed in a line in the code before they are actually declared, if it makes sense. Have a look at the code below. You will see that you can access `i` in line 2 even before it's declared in line 4. However, it returns value `undefined` since no value has been assigned to it at that stage.
+Note that variables declared with `var` become visible in their enclosing function block and can be accessed in a line in the code before they are actually declared, if that makes sense. Have a look at the code below if it does not. You will see that you can access `i` in line 2 even before it's declared in line 4. However, it returns value `undefined` since no value has been assigned to `i` at that point.
 
 ```javascript
 function varExample() {
@@ -31,7 +31,7 @@ i afer the loop 5
 
 ## `let`
 
-`let` is the close cousin of `var`, albeit with some significant differences. In contrast to `var`, `let` is scoped to the nearest enclosing block, or global if outside any block, just like `var`. Thus, their scope is always just as big, or smaller than of `var`. Let's look at an example below to get a better idea of how block scoping works.
+`let` is the close cousin of `var`, albeit with some significant differences. In contrast to `var`, `let` is scoped to the nearest enclosing block, or global if outside any block, just like `var`. Thus, variables scope declared with `let` is just as big, or smaller, than that of `var`. Let's look at an example below to get a better idea of how block scoping works.
 
 ```javascript
 function letExample() {
