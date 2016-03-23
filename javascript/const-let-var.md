@@ -124,3 +124,11 @@ Just as expected, we cannot reassign `foo` with a new value.
 There is no real reason to use `var` anymore for declaring variables. `let` works just as well for all situations and makes the code more predictable by signalling that the variable is only available for this block and it will definitely not reappear anywhere else.
 
 As for `const`, it should be used to declare variables that will never change throughout the entirety of the program, such as access keys, names, configurations and things like that. From a technical standpoint, apparently it also allows JavaScript engines to compile the code in such way that it's more performant.
+
+## Resources
+
+- [let](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/let)
+- [const](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/const)
+- [Const in javascript? When to use it and is it necessary](http://stackoverflow.com/questions/21237105/const-in-javascript-when-to-use-it-and-is-it-necessary)
+- [JavaScript ES6+: var, let, or const?](https://medium.com/javascript-scene/javascript-es6-var-let-or-const-ba58b8dcde75#.dq90wp1qi)
+- []()
