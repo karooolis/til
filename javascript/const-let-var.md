@@ -31,7 +31,9 @@ i afer the loop 5
 
 ## `let`
 
-`let` is the close cousin of `var`, albeit with some significant differences. In contrast to `var`, `let` is scoped to the nearest enclosing block, or global if outside any block, just like `var`. Thus, variables scope declared with `let` is just as big, or smaller, than that of `var`. Let's look at an example below to get a better idea of how block scoping works.
+`let` is the close cousin of `var`, albeit with some significant differences. In contrast to `var`, `let` is scoped to the nearest enclosing block, or global if outside any block, just like `var`. Thus, variables scope declared with `let` is just as big, or smaller, than that of `var`. `let` works just like variable declarations in most other languages where variables are declared by block scope rather than function scope. To have variables declared by function scope was and still is one among many JavaScript peculiarities.
+
+Anyhow, let's look at an example below to get a better idea of how `let` and block scoping works.
 
 ```javascript
 function letExample() {
@@ -124,6 +126,8 @@ Just as expected, we cannot reassign `foo` with a new value.
 There is no real reason to use `var` anymore for declaring variables. `let` works just as well for all situations and makes the code more predictable by signalling that the variable is only available for this block and it will definitely not reappear anywhere else.
 
 As for `const`, it should be used to declare variables that will never change throughout the entirety of the program, such as access keys, names, configurations and things like that. From a technical standpoint, apparently it also allows JavaScript engines to compile the code in such way that it's more performant.
+
+In summary, from now on I will only use `let` for variables that will have their values reassigned, and `const` for values for which I do not expect or want the value to change during the entirety of an application. As for `var, I am not sure if there is any real reason to use it anymore and the Internet does not reveal any reasons either.
 
 ## Resources
 
