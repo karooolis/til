@@ -29,6 +29,7 @@ warrant a full blog post. Inspired by and forked from [Josh Branchaud](http://jo
 - [Looping objects](javascript/looping-objects.md)
 - [Getting started with JavaScript promises](javascript/getting-started-with-promises.md)
 - [const vs. let vs. var](javascript/const-let-var.md)
+- [call vs. bind vs. apply](javascript/call-bind-apply.md)
 
 ### ReactJS
 - [Reusable React components with NPM](reactjs/reusable-react-components-with-npm.md)
