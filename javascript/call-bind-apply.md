@@ -103,13 +103,13 @@ higherNumber.apply(this, [10, 5]); // 10
 higherNumber.call(this, 10, 5); // 10
 ```
 
-You can see how `call` and `apply` behave the same.
+You can see how `call` and `apply` behave the same except for the differences in parameter passing.
 
 ## Summary
 
-`call`, `apply` and `bind` all deal with the same fundamental problem - keeping `this` to the one required by the developer rather than the newly created context inside new function invocations. They are all helpful in scenarios such as async callbacks where the desired `this` would get lost in the way. Also, they help to prevent such code smells as `let that = this` where you want to save a given `this` for later. Embarrased to say, I used to that extensively!
+`call`, `apply` and `bind` all deal with the same fundamental problem - keeping `this` to the one required by the developer rather than the newly created context inside new function invocations. They are all helpful in scenarios such as async callbacks where the desired `this` would get lost in the way. Also, they help to prevent such code smells as `let that = this` where you want to save a given `this` for later. Embarrased to say, I used that *trick* extensively!
 
-In total, all of the methods discussed above have their place. `call` and `apply` are essentially the same, only the usage details differ. `bind` is helpful for predefining given functions with appropriate `this` context. It's definitely helpful to understand them and use wisely :)
+In total, all of the methods discussed above have their place. `call` and `apply` are essentially the same, only the usage details differ. `bind` is helpful for predefining given functions with appropriate `this` context. It is definitely helpful to understand all of the above and use them wisely :)
 
 
 ## Resources
