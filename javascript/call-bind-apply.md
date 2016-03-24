@@ -60,7 +60,7 @@ greet.call(parrot); // parrot Leyla talking in English
 
 ## `bind`
 
-As defined by MDN, *the bind() method creates a new function that, when called, has its `this` keyword set to the provided value, with a given sequence of arguments preceding any provided when the new function is called.*
+As defined by MDN, *"the bind() method creates a new function that, when called, has its `this` keyword set to the provided value, with a given sequence of arguments preceding any provided when the new function is called."*
 
 In short, it's different to `call` in a sense that it does not invoke a new function but once it's invoked, it is already binded with a predefined `this` context.
 ```javascript
