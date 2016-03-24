@@ -99,6 +99,7 @@ function higherNumber(a, b) {
 
 higherNumber(10, 5); // 10
 higherNumber.apply(this, [10, 5]); // 10
+higherNumber.call(this, 10, 5); // 10
 
 
 // myArray = [10, 2];
