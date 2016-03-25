@@ -8,21 +8,26 @@ It is a common scenario to assign a variable to another variable only if it is n
 
 ```javascript
 // Regular way
-function foo(bar)
+function foo(bar) {
 ​	if (!bar) {
-  	bar  = "Default value";
-  }
+		bar  = "Default value";
+	}
 }
 
 // Idiomatic expression
-function fooShortcut(bar)
-  bar  = bar || "Default value";
+function fooShortcut(bar) {
+	bar  = bar || "Default value";
+}
+
+// Another way to declare default function parameter
+function fooShortcut2(bar) {
+	bar = typeof bar !== 'undefined' ? bar : "Default value";
 }
 ```
 
 ## Returning function value
 
-Another common scenario in JavaScript is return either `true` or `false` based on some condition. Compare the two equivalent functions below and let me know if you disagree that the second way is neater! The solution is simple but elegant.
+Another common scenario in JavaScript is to return either `true` or `false` based on some condition. Compare the two equivalent functions below and let me know if you disagree that the second way is neater! The solution is simple but elegant.
 
 ```javascript
 // Regular way
@@ -31,12 +36,12 @@ function isAdult(age) {
 		return true;
 	} else {
 		return false;
-  }
+	}
 }
 
 // Short circuiting with &&
 function isAdult(age) {
-   return age && age > 17 ;
+   return age && age > 17;
 }
 ```
 
@@ -61,7 +66,7 @@ userName && logIn (userName) || signUp ();
 
 ## Assigning values if other values exist
 
-This one is similar to the first example above. The difference here is that instead of just checking one value, you are checking several values and assign a variable based on the condition.
+This one is similar to the first example where we set a variable to value only if the value was not `null`. The difference here is that instead of just checking one value, you are checking several values and assign a variable based on the condition.
 
 ```javascript
 let user = {
