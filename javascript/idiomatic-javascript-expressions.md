@@ -89,7 +89,7 @@ let userID = user && user.loggedIn && user.id
 
 ## Summary
 
-Idiomatic expresions are cool! They are more expressive and thus take less code to write but are just as easy to read and understand. However, some examples above are more intuitive than others. For this reason I will use the less intuitive examples (#3 and #4) sparingly while from now on I will try to find any situation where idiomatic expressions presented in examples #1 and #2 could be used.
+Idiomatic expresions are cool! They are expressive and thus take less code to write but are just as easy to read and understand. However, some examples above are more intuitive than others. For this reason, I will use the less intuitive examples (#3 and #4) sparingly while for others (#1 and #2) I will look for any opportunity to take advantage of.
 
 ### Credits
 
