@@ -12,6 +12,7 @@ warrant a full blog post. Inspired by and forked from [Josh Branchaud](http://jo
 
 * [JavaScript](#javascript)
 * [ReactJS](#reactjs)
+* [Chrome Dev Tools](#chrome-dev-tools)
 * [CSS](#css)
 * [MySQL](#mysql)
 * [Servers](#servers)
@@ -35,6 +36,9 @@ warrant a full blog post. Inspired by and forked from [Josh Branchaud](http://jo
 ### ReactJS
 - [Reusable React components with NPM](reactjs/reusable-react-components-with-npm.md)
 - [Testing React components with Jest](reactjs/testing-react-with-jest.md)
+
+### Chrome Dev Tools
+- [DOMContentLoaded vs. load event](chrome-dev-tools/domcontentloaded-vs-load-event.md)
 
 ### CSS
 - [Understanding z-index](css/understanding-z-index.md)
