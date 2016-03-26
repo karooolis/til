@@ -20,3 +20,4 @@ Also, you can see the exact time it took both of these events to fire at the bot
 
 ![DOMContentLoaded](https://github.com/ramkarolis/til/blob/master/images/domcontentloaded-load-event.png "DOMContentLoaded")
 
+Before we wrap up today's TIL, have you spotted anything unusual in the timeline above? What you should have spotted is that there are still files being downloaded after `load` event is fired. This is because the downloading of some files is deferred until later, the classic example being images lazy loading where images are only loaded when the user has scrolled down some amount of pixels from the top. There are many other such scenarios where files are not downloaded immediately such as initially hidden images on the slideshow, or deferred loading of certain JavaScript scripts.
