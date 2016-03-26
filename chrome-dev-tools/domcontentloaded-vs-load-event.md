@@ -18,5 +18,5 @@ It is easy to find out when `DOMContentLoaded` and `load` events are fired by us
 
 Also, you can see the exact time it took both of these events to fire at the bottom (footer) of Chrome Dev Tools "Network" tab.
 
-![DOMContentLoaded](https://github.com/karolisram/til/raw/master/src/common/images/domcontentloaded-load-event.png "DOMContentLoaded")
+![DOMContentLoaded](https://github.com/ramkarolis/til/blob/master/images/domcontentloaded-load-event.png "DOMContentLoaded")
 
