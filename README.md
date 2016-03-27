@@ -39,6 +39,7 @@ warrant a full blog post. Inspired by and forked from [Josh Branchaud](http://jo
 
 ### Chrome Dev Tools
 - [DOMContentLoaded vs. load event](chrome-dev-tools/domcontentloaded-vs-load-event.md)
+- [Understanding Resource Timing](chrome-dev-tools/understanding-resource-timing.md)
 
 ### CSS
 - [Understanding z-index](css/understanding-z-index.md)
