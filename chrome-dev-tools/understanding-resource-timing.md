@@ -36,6 +36,7 @@ Waiting (TTFB - Time to First Byte) phase is executed immediately after the requ
 ![Slow TTFB](https://github.com/ramkarolis/til/blob/master/images/slow-ttfb.png "Slow TTFB")
 
 Slow TTFB (over the recommended 200ms) may have two potential causes:
+
 1. Bad network conditions between client and server, or
 2. A slowly responding server application
 
