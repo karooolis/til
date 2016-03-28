@@ -33,9 +33,12 @@ warrant a full blog post. Inspired by and forked from [Josh Branchaud](http://jo
 - [call vs. bind vs. apply](javascript/call-bind-apply.md)
 - [Idiomatic JavaScript expressions using || and &&](javascript/idiomatic-javascript-expressions.md)
 
-### ReactJS
-- [Reusable React components with NPM](reactjs/reusable-react-components-with-npm.md)
-- [Testing React components with Jest](reactjs/testing-react-with-jest.md)
+### React
+- [Reusable React components with NPM](React/reusable-react-components-with-npm.md)
+- [Testing React components with Jest](React/testing-react-with-jest.md)
+
+### Node.js
+- [Reading command line arguments](nodejs/reading-command-line-arguments.md)
 
 ### Chrome Dev Tools
 - [DOMContentLoaded vs. load event](chrome-dev-tools/domcontentloaded-vs-load-event.md)
