@@ -11,7 +11,8 @@ warrant a full blog post. Inspired by and forked from [Josh Branchaud](http://jo
 ### Categories
 
 * [JavaScript](#javascript)
-* [ReactJS](#reactjs)
+* [React](#react)
+* [Node.js](#nodejs)
 * [Chrome Dev Tools](#chrome-dev-tools)
 * [CSS](#css)
 * [MySQL](#mysql)
