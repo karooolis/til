@@ -11,6 +11,7 @@ warrant a full blog post. Inspired by and forked from [Josh Branchaud](http://jo
 ### Categories
 
 * [JavaScript](#javascript)
+* [HTML/CSS](#htmlcss)
 * [React](#react)
 * [Node.js](#nodejs)
 * [Chrome Dev Tools](#chrome-dev-tools)
@@ -33,6 +34,9 @@ warrant a full blog post. Inspired by and forked from [Josh Branchaud](http://jo
 - [const vs. let vs. var](javascript/const-let-var.md)
 - [call vs. bind vs. apply](javascript/call-bind-apply.md)
 - [Idiomatic JavaScript expressions using || and &&](javascript/idiomatic-javascript-expressions.md)
+
+### HTML/CSS
+- [Critical Rendering Path](html-css/critical-rendering-path.md)
 
 ### React
 - [Reusable React components with NPM](React/reusable-react-components-with-npm.md)
