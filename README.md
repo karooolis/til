@@ -44,6 +44,7 @@ warrant a full blog post. Inspired by and forked from [Josh Branchaud](http://jo
 
 ### Node.js
 - [Reading command line arguments](nodejs/reading-command-line-arguments.md)
+- [Using modules in Node.js](nodejs/nodejs-modules.md)
 
 ### Chrome Dev Tools
 - [DOMContentLoaded vs. load event](chrome-dev-tools/domcontentloaded-vs-load-event.md)
