@@ -4,6 +4,8 @@ A lot of best practices for reducing critical rendering path as discussed in [pr
 
 Since HTTP/2 is already with us and can be used, and is used by giants such as Google or Twitter, I decided to explore a little bit more what the hype is all about.
 
+Note that today's TIL does not really fit into any categories but since I use Chrome Dev Tools for inspecting network performance, I will leave the entry in "Chrome Dev Tools" section for now.
+
 
 ## Aim of HTTP/2
 
