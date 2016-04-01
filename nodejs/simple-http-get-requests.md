@@ -4,7 +4,7 @@ Today I learnt how to perform simple HTTP GET requests on Node.js. The code belo
 
 `http` module works by returning a response object which contains all the data about the response such as response headers, status code and so on.
 
-I thought that the response object would also contain the received data but somewhat counterintuitively, the response object only has a `data` event, which gets called to buffer data from a stream received from the called URL. Thus, we need to be careful when receiving data and not cut off the stream by handing `data` event only once. It can be done using only `http` module but I found out that using an additional `bl` module makes the process a bit more expressive.
+I thought that the response object would also contain the received data but somewhat counterintuitively, the response object only has a `data` event, which gets called to buffer data from a stream received from the called URL. Thus, we need to be careful when receiving data and not cut off the stream by handing `data` event only once. It can be done using only `http` module but I found out that using an additional `bl` module makes the code a bit more expressive.
 
 ```javascript
 var args = process.argv;
