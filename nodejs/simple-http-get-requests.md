@@ -10,7 +10,7 @@ I thought that the response object would also contain the received data but some
 var args = process.argv;
 var http = require('http');
 var bl = require('bl');
-var url = "http://baconipsum.com/api/?type=meat-and-filler";
+var url = args[2];
 
 // Example using `http` module only.
 // `response.on("data")` buffers the stream and we need to make sure ourselves
