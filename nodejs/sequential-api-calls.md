@@ -1,6 +1,6 @@
 # Sequential API calls
 
-Imagine a scenario where you need to call one API, then another, and finally a third one. Expanding on ["Simple HTTP GET requests" TIL](https://github.com/ramkarolis/til/blob/master/nodejs/simple-http-get-requests.md), we can achieve that by using additional NPM module [`async`](https://www.npmjs.com/package/async) which allows us to all kinds of interesting and useful things. 
+Imagine a scenario where you need to call one API, then another, and finally a third one. Expanding on ["Simple HTTP GET requests"](https://github.com/ramkarolis/til/blob/master/nodejs/simple-http-get-requests.md) TIL entry, we can achieve that by using additional NPM module [`async`](https://www.npmjs.com/package/async) which allows us to all kinds of interesting and useful things. 
 
 The example below makes sure that the URLs passed as command line arguments will all be called and processed sequentially. Simple but powerful.
 
