@@ -47,6 +47,7 @@ warrant a full blog post. Inspired by and forked from [Josh Branchaud](http://jo
 - [Using modules in Node.js](nodejs/nodejs-modules.md)
 - [Simple HTTP GET requests](nodejs/simple-http-get-requests.md)
 - [Sequential API calls](nodejs/sequential-api-calls.md)
+- [Simple API server](node.js/simple-api-server.md)
 
 ### Chrome Dev Tools
 - [DOMContentLoaded vs. load event](chrome-dev-tools/domcontentloaded-vs-load-event.md)

@@ -1,9 +1,9 @@
 # Topics I want to cover in the future
 
-## Chrome Dev Tools
-
-- [Understanding Resource Timing](https://developers.google.com/web/tools/chrome-devtools/profile/network-performance/understanding-resource-timing) - explore how resources are loaded
-
 ## Golang
 
 - [Golang fundamentals](https://www.golang-book.com/books/intro/4)
+
+## Node.js
+
+- Find out the exact difference between streams, buffers, and other relevant data representations.
