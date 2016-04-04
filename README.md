@@ -18,6 +18,7 @@ warrant a full blog post. Inspired by and forked from [Josh Branchaud](http://jo
 * [CSS](#css)
 * [MySQL](#mysql)
 * [Servers](#servers)
+* [Statistics](#statistics)
 
 ---
 
@@ -51,7 +52,7 @@ warrant a full blog post. Inspired by and forked from [Josh Branchaud](http://jo
 
 ### Chrome Dev Tools
 - [DOMContentLoaded vs. load event](chrome-dev-tools/domcontentloaded-vs-load-event.md)
-- [Understanding Resource Timing](chrome-dev-tools/understanding-resource-timing.md)
+- [Resource Timing](chrome-dev-tools/understanding-resource-timing.md)
 - [Exploring HTTP/2](chrome-dev-tools/exploring-http-2.md)
 
 ### CSS
@@ -62,6 +63,9 @@ warrant a full blog post. Inspired by and forked from [Josh Branchaud](http://jo
 
 ### Servers
 - [Heroku's ephemeral filesystem](servers/herokus-ephemeral-filesystem.md)
+
+### Statistics
+- [Bayes' Theorem](statistics/bayes-theorem.md)
 
 ## Other TIL Collections
 
