@@ -66,6 +66,7 @@ warrant a full blog post. Inspired by and forked from [Josh Branchaud](http://jo
 
 ### Statistics
 - [Bayes' Theorem](statistics/bayes-theorem.md)
+- [Birthday Paradox](statistics/birthday-paradox.md)
 
 ## Other TIL Collections
 
