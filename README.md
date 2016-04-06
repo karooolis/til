@@ -36,6 +36,9 @@ warrant a full blog post. Inspired by and forked from [Josh Branchaud](http://jo
 - [call vs. bind vs. apply](javascript/call-bind-apply.md)
 - [Idiomatic JavaScript expressions using || and &&](javascript/idiomatic-javascript-expressions.md)
 
+### Unit testing
+- [Setting up Karma with Jasmine](javascript/setting-up-karma-with-jasmine.md)
+
 ### HTML/CSS
 - [Critical Rendering Path](html-css/critical-rendering-path.md)
 
