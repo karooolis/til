@@ -11,6 +11,7 @@ warrant a full blog post. Inspired by and forked from [Josh Branchaud](http://jo
 ### Categories
 
 * [JavaScript](#javascript)
+* [Unit testing](#unit-testing)
 * [HTML/CSS](#htmlcss)
 * [React](#react)
 * [Node.js](#nodejs)
