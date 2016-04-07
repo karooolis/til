@@ -38,7 +38,8 @@ warrant a full blog post. Inspired by and forked from [Josh Branchaud](http://jo
 - [Idiomatic JavaScript expressions using || and &&](javascript/idiomatic-javascript-expressions.md)
 
 ### Unit testing
-- [Setting up Karma with Jasmine](javascript/setting-up-karma-with-jasmine.md)
+- [Setting up Karma with Jasmine](unit-testing/setting-up-karma-with-jasmine.md)
+- [Jasmine test cases](unit-testing/jasmine-test-cases.md)
 
 ### HTML/CSS
 - [Critical Rendering Path](html-css/critical-rendering-path.md)
