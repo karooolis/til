@@ -337,6 +337,42 @@ describe("A spy", function() {
 });
 ```
 
+### `jasmine.createSpy`
+
+When there is not a function to spy on, `jasmine.createSpy` can create a “bare” spy. This spy acts as any other spy – tracking calls, arguments, etc. But there is no implementation behind it. Spies are JavaScript objects and can be used as such.
+
+```javascript
+describe("A spy, when created manually", function() {
+  var whatAmI;
+
+  beforeEach(function() {
+    whatAmI = jasmine.createSpy('whatAmI');
+
+    whatAmI("I", "am", "a", "spy");
+  });
+
+  it("is named, which helps in error reporting", function() {
+    expect(whatAmI.and.identity()).toEqual('whatAmI');
+  });
+
+  it("tracks that the spy was called", function() {
+    expect(whatAmI).toHaveBeenCalled();
+  });
+
+  it("tracks its number of calls", function() {
+    expect(whatAmI.calls.count()).toEqual(1);
+  });
+
+  it("tracks all the arguments of its calls", function() {
+    expect(whatAmI).toHaveBeenCalledWith("I", "am", "a", "spy");
+  });
+
+  it("allows access to the most recent call", function() {
+    expect(whatAmI.calls.mostRecent().args[0]).toEqual("I");
+  });
+});
+```
+
 ## Matching anything with `jasmine.any`
 
 `jasmine.any` takes a constructor or “class” name as an expected value. It returns true if the constructor matches the constructor of the actual value.
@@ -484,7 +520,156 @@ describe('jasmine.stringMatching', function() {
 });
 ```
 
+## Custom asymmetric equality tester
 
+When you need to check that something meets a certain criteria, without being strictly equal, you can also specify a custom asymmetric equality tester simply by providing an object that has an `asymmetricMatch` function.
+
+```javascript
+describe("custom asymmetry", function() {
+  var tester = {
+    asymmetricMatch: function(actual) {
+      var secondValue = actual.split(',')[1];
+      return secondValue === 'bar';
+    }
+  };
+
+  it("dives in deep", function() {
+    expect("foo,bar,baz,quux").toEqual(tester);
+  });
+
+  describe("when used with a spy", function() {
+    it("is useful for comparing arguments", function() {
+      var callback = jasmine.createSpy('callback');
+
+      callback('foo,bar,baz');
+
+      expect(callback).toHaveBeenCalledWith(tester);
+    });
+  });
+});
+```
+
+## Jasmine Clock
+
+The Jasmine Clock is available for testing time dependent code.
+
+Jasmine Clock is installed with a call to `jasmine.clock().install` in a spec or suite that needs to manipulate time.
+
+Do not forget to uninstall Jasmine Clock with `jasmine.clock().uninstall` you are done to restore the original functions.
+
+The clock is useful to make `setTimeout` or `setInterval` synchronous, executing the registered functions only once the clock is ticked forward in time.
+
+To execute registered functions, move time forward via the `jasmine.clock().tick` function, which takes a number of milliseconds.
+
+Additionally, the Jasmine Clock can also be used to mock the current date. If you do not provide a base time to mockDate it will use the current date.
+
+```javascript
+describe("Manually ticking the Jasmine Clock", function() {
+  var timerCallback;
+
+  beforeEach(function() {
+    timerCallback = jasmine.createSpy("timerCallback");
+    jasmine.clock().install();
+  });
+
+  afterEach(function() {
+    jasmine.clock().uninstall();
+  });
+
+  it("causes a timeout to be called synchronously", function() {
+    setTimeout(function() {
+      timerCallback();
+    }, 100);
+
+    expect(timerCallback).not.toHaveBeenCalled();
+
+    jasmine.clock().tick(101);
+
+    expect(timerCallback).toHaveBeenCalled();
+  });
+
+  it("causes an interval to be called synchronously", function() {
+    setInterval(function() {
+      timerCallback();
+    }, 100);
+
+    expect(timerCallback).not.toHaveBeenCalled();
+
+    jasmine.clock().tick(101);
+    expect(timerCallback.calls.count()).toEqual(1);
+
+    jasmine.clock().tick(50);
+    expect(timerCallback.calls.count()).toEqual(1);
+
+    jasmine.clock().tick(50);
+    expect(timerCallback.calls.count()).toEqual(2);
+  });
+
+  describe("Mocking the Date object", function(){
+    it("mocks the Date object and sets it to a given time", function() {
+      var baseTime = new Date(2013, 9, 23);
+
+      jasmine.clock().mockDate(baseTime);
+
+      jasmine.clock().tick(50);
+      expect(new Date().getTime()).toEqual(baseTime.getTime() + 50);
+    });
+  });
+});
+```
+
+## Asynchronous Support
+
+This section is useful for running specs that require testing asynchronous operations.
+
+Calls to `beforeAll`, `afterAll`, `beforeEach`, `afterEach`, and it can take an optional single argument that should be called when the async work is complete.
+
+This spec will not start until the `done` function is called in the call to `beforeEach` above. And this spec will not complete until its `done` is called.
+
+By default jasmine will wait for 5 seconds for an asynchronous spec to finish before causing a timeout failure. If the timeout expires before done is called, the current spec will be marked as failed and suite execution will continue as if done was called.
+
+If specific specs should fail faster or need more time this can be adjusted by passing a timeout value to it, etc.
+
+If the entire suite should have a different timeout, `jasmine.DEFAULT_TIMEOUT_INTERVAL` can be set globally, outside of any given describe.
+
+```javascript
+describe("Asynchronous specs", function() {
+  var value;
+
+  beforeEach(function(done) {
+    setTimeout(function() {
+      value = 0;
+      done();
+    }, 1);
+  }); 
+
+  it("should support async execution of test preparation and expectations", function(done) {
+    value++;
+    expect(value).toBeGreaterThan(0);
+    done();
+  }); 
+
+  describe("long asynchronous specs", function() {
+    beforeEach(function(done) {
+      done();
+    }, 1000);
+
+    it("takes a long time", function(done) {
+      setTimeout(function() {
+        done();
+      }, 9000);
+    }, 10000);
+
+    afterEach(function(done) {
+      done();
+    }, 1000);
+  });
+});
+```
+
+## Summary
+
+Jasmine is an extremely powerful testing framework with an elegant syntax. All these tests are nice but still do not cover all my needs. In future TILs I am hoping to find out how to use Karma with Jasmine to test React components, as Jest so far is not working that well.
 
 ## Resources
 
