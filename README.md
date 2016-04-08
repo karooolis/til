@@ -40,6 +40,7 @@ warrant a full blog post. Inspired by and forked from [Josh Branchaud](http://jo
 ### Unit testing
 - [Setting up Karma with Jasmine](unit-testing/setting-up-karma-with-jasmine.md)
 - [Jasmine test cases](unit-testing/jasmine-test-cases.md)
+- [Testing Browserify modules with Karma and Jasmine](unit-testing/browserify-testing.md)
 
 ### HTML/CSS
 - [Critical Rendering Path](html-css/critical-rendering-path.md)
