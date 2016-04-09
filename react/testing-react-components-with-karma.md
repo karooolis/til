@@ -2,7 +2,7 @@
 
 Today, after some amount of research, and even more tinkering, I have came up with a set up to test React components with Karma. The setup uses Karma for running tests, Jasmine as testing framework, Browserify for modules, and Babelify for transpilation. The setup allows to test regular functions and React components written in either ES5 or ES6.
 
-## [Demo](https://github.com/ramkarolis/karma-react-browserify-example)
+### [Demo](https://github.com/ramkarolis/karma-react-browserify-example)
 
 ## Resources
 
