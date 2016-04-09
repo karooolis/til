@@ -46,8 +46,9 @@ warrant a full blog post. Inspired by and forked from [Josh Branchaud](http://jo
 - [Critical Rendering Path](html-css/critical-rendering-path.md)
 
 ### React
-- [Reusable React components with NPM](React/reusable-react-components-with-npm.md)
-- [Testing React components with Jest](React/testing-react-with-jest.md)
+- [Reusable React components with NPM](react/reusable-react-components-with-npm.md)
+- [Testing React components with Jest](react/testing-react-with-jest.md)
+- [Testing React components with Karma](react/testing-react-components-with-karma.md)
 
 ### Node.js
 - [Reading command line arguments](nodejs/reading-command-line-arguments.md)
