@@ -20,6 +20,7 @@ warrant a full blog post. Inspired by and forked from [Josh Branchaud](http://jo
 * [MySQL](#mysql)
 * [Servers](#servers)
 * [Statistics](#statistics)
+* [Other computing concepts](#other-computing-concepts)
 
 ---
 
@@ -70,6 +71,9 @@ warrant a full blog post. Inspired by and forked from [Josh Branchaud](http://jo
 
 ### Servers
 - [Heroku's ephemeral filesystem](servers/herokus-ephemeral-filesystem.md)
+
+### Other computing concepts
+- [Buffers vs. streams](other-computing-concepts/buffers-vs-streams.md)
 
 ### Statistics
 - [Bayes' Theorem](statistics/bayes-theorem.md)
