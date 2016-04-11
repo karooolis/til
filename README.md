@@ -37,6 +37,7 @@ warrant a full blog post. Inspired by and forked from [Josh Branchaud](http://jo
 - [const vs. let vs. var](javascript/const-let-var.md)
 - [call vs. bind vs. apply](javascript/call-bind-apply.md)
 - [Idiomatic JavaScript expressions using || and &&](javascript/idiomatic-javascript-expressions.md)
+- [Detecting CSS media query changes/matches](javascript/detecting-css-media-query-changes-matches.md)
 
 ### Unit testing
 - [Setting up Karma with Jasmine](unit-testing/setting-up-karma-with-jasmine.md)
