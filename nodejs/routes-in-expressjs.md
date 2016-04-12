@@ -125,6 +125,7 @@ app.get('/callbacks-example', [callback0, callback1, callback2]);
 
 A combination of independent functions and arrays of functions can handle a route as well. For example:
 
+```javascript
 var callback0 = function (req, res, next) {
   console.log('Callback0 calling..');
   next();
@@ -141,7 +142,7 @@ app.get('/another-callbacks-example', [callback0, callback1], function (req, res
 }, function (req, res) {
   res.send('Hello from `another callbacks example`!');
 });
-
+```
 
 ## Chainable route handlers
 
