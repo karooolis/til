@@ -11,6 +11,7 @@ warrant a full blog post. Inspired by and forked from [Josh Branchaud](http://jo
 ### Categories
 
 * [JavaScript](#javascript)
+* [Task runners](#task-runners)
 * [Unit testing](#unit-testing)
 * [HTML/CSS](#htmlcss)
 * [React](#react)
@@ -38,6 +39,9 @@ warrant a full blog post. Inspired by and forked from [Josh Branchaud](http://jo
 - [call vs. bind vs. apply](javascript/call-bind-apply.md)
 - [Idiomatic JavaScript expressions using || and &&](javascript/idiomatic-javascript-expressions.md)
 - [Detecting CSS media query changes/matches](javascript/detecting-css-media-query-changes-matches.md)
+
+### Task runners
+- [CSS and JS injection Bower and Gulp](task-runners/css-js-injection-bower-gulp.md)
 
 ### Unit testing
 - [Setting up Karma with Jasmine](unit-testing/setting-up-karma-with-jasmine.md)
