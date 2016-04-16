@@ -64,6 +64,7 @@ warrant a full blog post. Inspired by and forked from [Josh Branchaud](http://jo
 - [Simple API server](nodejs/simple-api-server.md)
 - [Express routes](nodejs/routes-in-expressjs.md)
 - [Express - serving static content](nodejs/serving-static-content-express.md)
+- [Express - using view engine](nodejs/using-view-engine.md)
 
 ### Chrome Dev Tools
 - [DOMContentLoaded vs. load event](chrome-dev-tools/domcontentloaded-vs-load-event.md)
