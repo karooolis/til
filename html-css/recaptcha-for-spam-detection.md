@@ -1,4 +1,4 @@
-# reCAPTCHA for robot detection
+# reCAPTCHA for spam detection
 
 reCaptcha is an open source project authored by Google that protects website's against spam and abuse.
 
