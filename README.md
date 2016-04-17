@@ -50,6 +50,7 @@ warrant a full blog post. Inspired by and forked from [Josh Branchaud](http://jo
 
 ### HTML/CSS
 - [Critical Rendering Path](html-css/critical-rendering-path.md)
+- [reCAPTCHA for robot detection](html-css/recaptcha-for-robot-detection.md)
 
 ### React
 - [Reusable React components with NPM](react/reusable-react-components-with-npm.md)
