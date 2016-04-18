@@ -47,8 +47,8 @@ While all these functions are powerful by themselves, they become even more impr
 let myArray = [1, 2, 3, 4];
 
 let sum = myArray.filter((number) => number % 2 === 0)
-								 .map((number) => number * 2)
-								 .reduce((total, number) => total + number); // sum = 12
+	.map((number) => number * 2)
+	.reduce((total, number) => total + number); // sum = 12
 ```
 
 In the example above, we filter each number in array based on whether it's even. Then we double the value of all even numbers. Finally, we sum up whatever is left and get 12. I don't know about you but I just love how it looks, so elegant and so easy to work with once you get it :)
