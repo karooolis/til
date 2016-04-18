@@ -39,6 +39,7 @@ warrant a full blog post. Inspired by and forked from [Josh Branchaud](http://jo
 - [call vs. bind vs. apply](javascript/call-bind-apply.md)
 - [Idiomatic JavaScript expressions using || and &&](javascript/idiomatic-javascript-expressions.md)
 - [Detecting CSS media query changes/matches](javascript/detecting-css-media-query-changes-matches.md)
+- [Functional programming in JavaScript: map, reduce, filter](javascript/map-reduce-filter.md)
 
 ### Task runners
 - [CSS and JS injection Bower and Gulp](task-runners/css-js-injection-bower-gulp.md)
