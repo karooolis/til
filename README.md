@@ -41,6 +41,7 @@ warrant a full blog post. Inspired by and forked from [Josh Branchaud](http://jo
 - [Detecting CSS media query changes/matches](javascript/detecting-css-media-query-changes-matches.md)
 - [Functional programming in JavaScript: map, reduce, filter](javascript/map-reduce-filter.md)
 - [Default function parameters](javascript/default-function-parameters.md)
+- [Sorting arrays in JavaScripts](javascript/sorting-arrays-in-javascript.md)
 
 ### Task runners
 - [CSS and JS injection Bower and Gulp](task-runners/css-js-injection-bower-gulp.md)
