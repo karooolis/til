@@ -49,4 +49,4 @@ array.insert(2, "three"); // ["one", "two", "three", "four"];
 ## Resources
 
 - [Remove an Item From an Array with JavaScript](https://davidwalsh.name/remove-item-array-javascript)
-- []()
+- [Array: Insert an Item at a Specific Index with JavaScript](https://davidwalsh.name/array-insert-index)
