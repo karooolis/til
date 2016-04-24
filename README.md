@@ -82,6 +82,7 @@ warrant a full blog post. Inspired by and forked from [Josh Branchaud](http://jo
 
 ### MySQL
 - [Resetting MySQL root password](mysql/resetting-mysql-root-password.md)
+- [Changing MySQL user's password in command line](mysql/changing-user-password.md)
 
 ### Servers
 - [Heroku's ephemeral filesystem](servers/herokus-ephemeral-filesystem.md)
