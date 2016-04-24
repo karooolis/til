@@ -7,7 +7,7 @@ mysql -u root -p // connect to the database
 SET PASSWORD for 'wordpress'@'localhost' = PASSWORD("NEW PASSWORD");
 ```
 
-`SET PASSWORD` sets a new function for a selected user selected with `for`. We need to run our new password through function `PASSWORD()` so as to create new password digest since MySQL does not store passwords in plain text, as it should.
+`SET PASSWORD` sets a new function for a selected user selected with `for`. We need to run our new password through function `PASSWORD()` so as to create new password digest since MySQL does not store passwords in plain text, as it rightly should not.
 
 
 ## Resources
