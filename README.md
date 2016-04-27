@@ -45,6 +45,7 @@ warrant a full blog post. Inspired by and forked from [Josh Branchaud](http://jo
 - [Sorting arrays in JavaScript](javascript/sorting-arrays-in-javascript.md)
 - [Arrays manipulation (push or delete at specific index)](javascript/arrays-manipulation.md)
 - [Rest parameters](javascript/rest-parameters.md)
+- [Maps and sets in ES6](javascript/maps-sets.md)
 
 ### Task runners
 - [CSS and JS injection Bower and Gulp](task-runners/css-js-injection-bower-gulp.md)
