@@ -2,7 +2,7 @@
 
 ## ES6 features
 
-- More about new data structures such as maps and sets (https://medium.com/ecmascript-2015/es6-set-map-weak-a2aeb7e2d384#.im539ukbx)
+- Get to know Beacon API, seems like it would be useful for analytics capture and similar
 - Spread operator
 
 ## Interesting Udacity courses
