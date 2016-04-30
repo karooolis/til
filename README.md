@@ -47,6 +47,7 @@ warrant a full blog post. Inspired by and forked from [Josh Branchaud](http://jo
 - [Rest parameters](javascript/rest-parameters.md)
 - [Maps and sets in ES6](javascript/maps-sets.md)
 - [Bitwise operators](javascript/bitwise-operators.md)
+- [Template literals](javascript/template-literals.md)
 
 ### Task runners
 - [CSS and JS injection Bower and Gulp](task-runners/css-js-injection-bower-gulp.md)
