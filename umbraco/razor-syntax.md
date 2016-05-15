@@ -13,7 +13,7 @@ Finally the university exams are over and there is time to delve deep into [Umbr
 
 ## Expression
 
-```razor
+```csharp
 // HTML encoded
 <span>@model.Message</span>
 
@@ -25,7 +25,7 @@ Finally the university exams are over and there is time to delve deep into [Umbr
 
 ## Combining text and markup
 
-```razor
+```csharp
 @foreach(var item in items) {
   <span>@item.Prop</span> 
 }
@@ -33,7 +33,7 @@ Finally the university exams are over and there is time to delve deep into [Umbr
 
 ## Mixing code and plain text
 
-```razor
+```csharp
 @if (foo) {
   <text>Plain Text</text> 
 }
@@ -46,7 +46,7 @@ Finally the university exams are over and there is time to delve deep into [Umbr
 
 ## Using block
 
-```razor
+```csharp
 @ using (Html.BeginForm()) {
   <input type="text" value="input here">
 }
@@ -54,7 +54,7 @@ Finally the university exams are over and there is time to delve deep into [Umbr
 
 ## Server-side comment
 
-```razor
+```csharp
 @*
 This is a server side 
 multiline comment 
@@ -63,7 +63,7 @@ multiline comment
 
 ## Full page example
 
-```razor
+```csharp
 @* Variables declaration *@
 @{
     var theMonth = DateTime.Now.Month;
