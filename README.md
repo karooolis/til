@@ -80,6 +80,7 @@ warrant a full blog post. Inspired by and forked from [Josh Branchaud](http://jo
 - [DOMContentLoaded vs. load event](chrome-dev-tools/domcontentloaded-vs-load-event.md)
 - [Resource Timing](chrome-dev-tools/understanding-resource-timing.md)
 - [Exploring HTTP/2](chrome-dev-tools/exploring-http-2.md)
+- [JavaScript Breakpoints](chrome-dev-tools/javascript-breakpoints.md)
 
 ### CSS
 - [Understanding z-index](css/understanding-z-index.md)
