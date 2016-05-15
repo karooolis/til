@@ -118,5 +118,5 @@ else
 
 ## Resources
 
-- [umbraco.tv Razor syntax course](http://umbraco.tv/videos/umbraco-v7/implementor/working-with-umbraco-data/razor-syntax/htmlraw/)
+- [Umbraco.tv Razor syntax course](http://umbraco.tv/videos/umbraco-v7/implementor/working-with-umbraco-data/razor-syntax/htmlraw/)
 - [C# Razor Syntax Quick Reference](http://haacked.com/archive/2011/01/06/razor-syntax-quick-reference.aspx/) by Phil Haack
