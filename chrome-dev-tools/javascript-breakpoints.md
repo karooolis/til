@@ -15,8 +15,6 @@ When the program encounters the keyword `debugger`, it stops execution presentin
 
 It is also possible to set breakpoints in the browser directly by going to the source of your script and clicking on the line number, as in the screenshot below. Then whenever the program encounters that line, the debugging panel opens up.
 
-![Setting breakpoints](https://github.com/ramkarolis/til/blob/master/images/setting-breakpoints.png "Setting breakpoints")
-
 Setting up breakpoints via `debugger` keyword or directly on the browser are both incredibly useful features! However, so far I find `debugger` keyword to be used more often as a replacement for `console.log`. Partly old habits I guess but also you don't have to search for a specific line in the Google Chrome scripts panel since you already have the code opened up in the editor.
 
 ## Resources
