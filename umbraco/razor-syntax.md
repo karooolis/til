@@ -4,7 +4,7 @@ Finally the university exams are over and there is time to delve deep into [Umbr
 
 ## Code block
 
-```razor
+```csharp
 @{ 
   int x = 123; 
   string y = "because.";
