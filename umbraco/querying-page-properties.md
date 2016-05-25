@@ -21,3 +21,25 @@ Also, in case we are not sure if the value will exist in the Razor template, or 
     <p>The value of optional field is @CurrentPage.optionalField</p>
 }
 ```
+
+For a website with multiple levels, you can loop a page within a page within a page, as many levels as needed, as in the example below:
+
+```csharp
+<ul>
+    @foreach (var page in CurrentPage.AncestorOrSelf(1).Children.Where("Visible"))
+    {
+        <li>
+            <a href="@page.Url">@page.Name</a>
+
+            <ul>
+                @foreach (var subPage in page.Children.Where("Visible"))
+                {
+                    <li>
+                        <a href="@subPage.Url">@subPage.Name</a>
+                    </li>
+                }
+            </ul>
+        </li>
+    }
+</ul>
+```
