@@ -79,6 +79,8 @@ warrant a full blog post. Inspired by and forked from [Josh Branchaud](http://jo
 
 ### Umbraco
 - [Razor Syntax](umbraco/razor-syntax.md)
+- [Querying Page Properties](umbraco/querying-page-properties.md)
+- [Navigation Menu](umbraco/navigation-menu.md)
 
 ### Chrome Dev Tools
 - [DOMContentLoaded vs. load event](chrome-dev-tools/domcontentloaded-vs-load-event.md)
