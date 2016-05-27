@@ -19,6 +19,7 @@ warrant a full blog post. Inspired by and forked from [Josh Branchaud](http://jo
 * [Umbraco CMS](#umbraco)
 * [Chrome Dev Tools](#chrome-dev-tools)
 * [CSS](#css)
+* [Competitive Programming](#competitive-programming)
 * [MySQL](#mysql)
 * [Servers](#servers)
 * [Statistics](#statistics)
@@ -90,6 +91,9 @@ warrant a full blog post. Inspired by and forked from [Josh Branchaud](http://jo
 
 ### CSS
 - [Understanding z-index](css/understanding-z-index.md)
+
+### Competitive Programming
+- [Faster Ways to Print Data](competitive-programming/faster-ways-to-print-data.md)
 
 ### MySQL
 - [Resetting MySQL root password](mysql/resetting-mysql-root-password.md)
