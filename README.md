@@ -21,12 +21,23 @@ warrant a full blog post. Inspired by and forked from [Josh Branchaud](http://jo
 * [CSS](#css)
 * [Competitive Programming](#competitive-programming)
 * [MySQL](#mysql)
+* [SAS](#sas)
 * [Servers](#servers)
 * [Statistics](#statistics)
 * [Science related](#science-related)
 * [Other computing concepts](#other-computing-concepts)
 
 ---
+
+### MySQL
+- [Resetting MySQL root password](mysql/resetting-mysql-root-password.md)
+- [Changing MySQL user's password in command line](mysql/changing-user-password.md)
+
+### Servers
+- [Heroku's ephemeral filesystem](servers/herokus-ephemeral-filesystem.md)
+
+### SAS
+- [Ways to create empty dataset](sas/ways-to-create-empty-dataset.md)
 
 ### JavaScript
 - [Touch device detection](javascript/touch-device-detection.md)
@@ -95,13 +106,6 @@ warrant a full blog post. Inspired by and forked from [Josh Branchaud](http://jo
 
 ### Competitive Programming
 - [Faster Ways to Print Data](competitive-programming/faster-ways-to-print-data.md)
-
-### MySQL
-- [Resetting MySQL root password](mysql/resetting-mysql-root-password.md)
-- [Changing MySQL user's password in command line](mysql/changing-user-password.md)
-
-### Servers
-- [Heroku's ephemeral filesystem](servers/herokus-ephemeral-filesystem.md)
 
 ### Other computing concepts
 - [Buffers vs. streams](other-computing-concepts/buffers-vs-streams.md)
