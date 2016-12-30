@@ -38,6 +38,7 @@ warrant a full blog post. Inspired by and forked from [Josh Branchaud](http://jo
 
 ### SAS
 - [Ways to create empty dataset](sas/ways-to-create-empty-dataset.md)
+- [`cntlin` to merge datasets](sas/cntlin-to-merge-datasets.md)
 
 ### JavaScript
 - [Touch device detection](javascript/touch-device-detection.md)
