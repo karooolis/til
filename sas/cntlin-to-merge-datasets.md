@@ -49,3 +49,5 @@ data emps_names_birthdays;
 	birthday=put(empId, $birthdays_fmt.);
 run;
 ```
+
+I haven't done the experiment on how it performs against SQL inner join or SAS merge procedure but it is said that such method works quite a lot faster than other methods. Once I run the experiments comparing these methods, I will make sure to include the results here.
