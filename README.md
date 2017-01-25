@@ -32,6 +32,7 @@ warrant a full blog post. Inspired by and forked from [Josh Branchaud](http://jo
 ### MySQL
 - [Resetting MySQL root password](mysql/resetting-mysql-root-password.md)
 - [Changing MySQL user's password in command line](mysql/changing-user-password.md)
+- [Creating SQLite databases](mysql/creating-sqlite-database)
 
 ### Servers
 - [Heroku's ephemeral filesystem](servers/herokus-ephemeral-filesystem.md)
@@ -126,7 +127,7 @@ warrant a full blog post. Inspired by and forked from [Josh Branchaud](http://jo
 
 ## License
 
-&copy; 2016 Karolis Ramanauskas
+&copy; 2017 Karolis Ramanauskas
 
 This repository is licensed under the MIT license. See `LICENSE` for
 details.
