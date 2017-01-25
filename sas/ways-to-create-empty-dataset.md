@@ -21,3 +21,19 @@ data new_dataset;
 	stop;
 run;
 ```
+
+Then, to fill the datasets with data it would be as simple as:
+
+```sas
+proc sql noprint;
+	insert into new_dataset
+	values ('01', 'Message 01', 'Status 01');
+
+	insert into new_dataset
+	values ('02', 'Message 02', 'Status 02');
+
+	insert into new_dataset
+	values ('03', 'Message 03', 'Status 03');
+quit;
+
+```
