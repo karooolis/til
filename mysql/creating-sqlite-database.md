@@ -4,7 +4,7 @@ It's worth mentioning that SQLite, in contrast to its competitors such as MySQL,
 
 The first step in creating the database is creating the schema for it. The schema is defined as an SQL query and stored in an `*.sql` file. For example, the SQL command below is saved at `tables_creation.sql` and creates 3 tables once executed. 
 
-```mysql
+```sql
 create table submissions_info (
 	story_id integer not null primary key autoincrement,
 	title varchar(100),
@@ -33,7 +33,7 @@ create table new_page_tracker (
 
 To use the above file for creating a new SQLite database, just copy the following command in your terminal:
 
-```
+```sql
 cat creation.sql | sqlite3 database.db
 ```
 
