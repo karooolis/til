@@ -10,7 +10,10 @@ warrant a full blog post. Inspired by and forked from [Josh Branchaud](http://jo
 
 ### Categories
 
+* [Python](#python)
 * [JavaScript](#javascript)
+* [MySQL](#mysql)
+* [SAS](#sas)
 * [Task runners](#task-runners)
 * [Unit testing](#unit-testing)
 * [HTML/CSS](#htmlcss)
@@ -20,14 +23,15 @@ warrant a full blog post. Inspired by and forked from [Josh Branchaud](http://jo
 * [Chrome Dev Tools](#chrome-dev-tools)
 * [CSS](#css)
 * [Competitive Programming](#competitive-programming)
-* [MySQL](#mysql)
-* [SAS](#sas)
 * [Servers](#servers)
 * [Statistics](#statistics)
 * [Science related](#science-related)
 * [Other computing concepts](#other-computing-concepts)
 
 ---
+
+### Python
+- [Connecting to and querying SQLite database](python/connecting-to-and-querying-sqlite.md)
 
 ### MySQL
 - [Resetting MySQL root password](mysql/resetting-mysql-root-password.md)
