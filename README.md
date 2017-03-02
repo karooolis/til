@@ -10,6 +10,7 @@ warrant a full blog post. Inspired by and forked from [Josh Branchaud](http://jo
 
 ### Categories
 
+* [Algorithms](#algorithms)
 * [Python](#python)
 * [JavaScript](#javascript)
 * [MySQL](#mysql)
@@ -29,6 +30,9 @@ warrant a full blog post. Inspired by and forked from [Josh Branchaud](http://jo
 * [Other computing concepts](#other-computing-concepts)
 
 ---
+
+### Algorithms
+- [Big Oh vs. Big Theta vs. Big Omega](algorithms/big-oh-big-theta-big-omega.md)
 
 ### Python
 - [Connecting to and querying SQLite database](python/connecting-to-and-querying-sqlite.md)
