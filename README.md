@@ -11,6 +11,7 @@ warrant a full blog post. Inspired by and forked from [Josh Branchaud](http://jo
 ### Categories
 
 * [Algorithms](#algorithms)
+* [Vim](#vim)
 * [Python](#python)
 * [JavaScript](#javascript)
 * [MySQL](#mysql)
@@ -33,6 +34,9 @@ warrant a full blog post. Inspired by and forked from [Josh Branchaud](http://jo
 
 ### Algorithms
 - [Big Oh vs. Big Theta vs. Big Omega](algorithms/big-oh-big-theta-big-omega.md)
+
+### Vim
+- [Useful Vim commands](vim/useful-vim-commands.md)
 
 ### Python
 - [Connecting to and querying SQLite database](python/connecting-to-and-querying-sqlite.md)
