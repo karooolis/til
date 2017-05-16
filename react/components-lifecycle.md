@@ -1,6 +1,9 @@
 # React Components Lifecycle
 
-```javascripDOCTYPE html>
+Code below demonstrates the entire lifecycle of a React component.
+
+```javascript
+DOCTYPE html>
 <html>
   <head>
     <meta charset="UTF-8" />
