@@ -1,4 +1,4 @@
-## Higher order components 
+## Higher Order Components 
 
 Higher order components is a pattern in React that takes a component and returns a new component. This allows to reuse some of the programming logic.
 
