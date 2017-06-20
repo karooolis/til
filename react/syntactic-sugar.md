@@ -1,4 +1,4 @@
-## Syntatic Sugar for React
+## Syntactic Sugar for React
 
 In this document I will keep a track of various syntantic sugar for React library.
 
