@@ -8,7 +8,7 @@ The snippet allows to shorten `this.setState` from `this.setState({videos: video
 
 ```javascript
 fetchData(videos => {
-  this.setState({ videos })
+	this.setState({ videos })
 })
 ```
 
