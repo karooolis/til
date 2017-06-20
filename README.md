@@ -96,7 +96,7 @@ warrant a full blog post. Inspired by and forked from [Josh Branchaud](http://jo
 - [Reusable React components with NPM](react/reusable-react-components-with-npm.md)
 - [Testing React components with Jest](react/testing-react-with-jest.md)
 - [Testing React components with Karma](react/testing-react-components-with-karma.md)
-- [Syntatic Sugar](react/syntactic-sugar.md)
+- [Syntactic Sugar](react/syntactic-sugar.md)
 
 ### Node.js
 - [Reading command line arguments](nodejs/reading-command-line-arguments.md)
