@@ -76,6 +76,7 @@ warrant a full blog post. Inspired by and forked from [Josh Branchaud](http://jo
 - [Bitwise operators](javascript/bitwise-operators.md)
 - [Template literals](javascript/template-literals.md)
 - [Use of `instanceof` and `typeof`](javascript/use-of-instanceof-and-typeof.md)
+- [Creating objects](javascript/creating-objects.md)
 
 ### Task runners
 - [CSS and JS injection Bower and Gulp](task-runners/css-js-injection-bower-gulp.md)
